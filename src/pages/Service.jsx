@@ -7,7 +7,7 @@ const Service = () => {
   return (
     <div>
         <Navbar/>
-        <Haqqinda/>
+        
         <Footer/>
     </div>
   )

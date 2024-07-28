@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Smooch+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Smooch+Sans:wght@700&display=swap');
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
 }
+.footerLeft img{
+  width: 50%;
+}
 .allBox {
   display: flex;
   gap: 40px;
+  margin-top: 115px;
 }
-img {
-  width: 50%;
-}
+
 .box {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
 .heading {
   font-size: 24px;
   font-weight: 900;
+  font-family: "Heebo", sans-serif;
 }
 
 .link {
@@ -28,10 +32,12 @@ img {
   padding-top: 15px;
   color: gray;
   font-size: 18px;
+  font-family: "Heebo", sans-serif;
 }
 p {
   color: gray;
   padding-bottom: 20px;
+  font-family: "Heebo", sans-serif;
 }
 
 .yanYana {
@@ -60,6 +66,7 @@ p {
 h5 {
   padding: 20px 0px;
   font-size: 20px;
+  font-family: "Heebo", sans-serif;
 }
 
 @media (max-width: 1440px) {
@@ -71,6 +78,9 @@ h5 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  img {
+    width: 50%;
   }
   /* .lastFooter{
       display: flex;
@@ -87,7 +97,6 @@ h5 {
   }
   .yanYana {
     margin-left: 165px;
-    margin-bottom: 25px;
   }
   .allBox {
     width: 100%;

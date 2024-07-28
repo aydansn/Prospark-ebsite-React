@@ -1,0 +1,581 @@
+.section1 {
+  padding: 30px 40px;
+  text-align: center;
+}
+.section1 h1{
+  padding: 0px;
+}
+.section1 button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: #7158dc;
+}
+.our {
+  color: black;
+  font-family: "Heebo", sans-serif;
+}
+.app {
+  color: #7158dc;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 70px;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section2 {
+  text-align: center;
+  padding: 30px 40px;
+}
+.allBoxs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.box1 {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.box1 button {
+  margin: 0px 0px 60px 210px;
+  border: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  background-color: rgb(250, 249, 254);
+}
+.box1 button i {
+  color: black;
+  font-size: 25px;
+}
+h3 {
+  color: #7158dc;
+}
+.difH3 {
+  color: black;
+}
+p {
+  color: gray;
+}
+button:hover {
+  background-color: #7158dc;
+  i {
+    color: white;
+  }
+}
+.box2 {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.box2 button {
+  margin: 0px 0px 60px 210px;
+  border: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  background-color: rgb(250, 249, 254);
+}
+.box2 button i {
+  color: black;
+  font-size: 25px;
+}
+h3 {
+  color: #7158dc;
+}
+.difH3 {
+  color: black;
+}
+p {
+  color: gray;
+}
+button:hover {
+  background-color: #7158dc;
+}
+button:hover i {
+  color: white;
+}
+.box3 {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.box3 button {
+  margin: 0px 0px 60px 210px;
+  border: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  background-color: rgb(250, 249, 254);
+}
+.box3 button i {
+  color: black;
+  font-size: 25px;
+}
+h3 {
+  color: #7158dc;
+}
+.difH3 {
+  color: black;
+}
+p {
+  color: gray;
+}
+button:hover {
+  background-color: #7158dc;
+}
+button:hover i {
+  color: white;
+}
+.section2 img {
+  width: 30%;
+  padding: 30px 0px;
+}
+
+
+
+.section3 h1 {
+  font-size: 115px;
+  font-family: "Heebo", sans-serif;
+}
+.center {
+  display: flex;
+}
+.bigText {
+  font-size: 115px;
+  color: #7158dc;
+  font-family: "Heebo", sans-serif;
+}
+
+.section4 .allCircle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.section4 .allCircle .real button {
+  background-color: white;
+  border-radius:200px;
+  border: 1px solid gray;
+}
+.section4 .allCircle .real button h2{
+  color:rgb(24, 18, 47);
+}
+.section4 .allCircle .real2 button {
+
+  background-color: white;
+  border-radius:200px;
+  border: 1px solid gray;
+}
+.section4 .allCircle .real2 button h2{
+  color:rgb(24, 18, 47);
+}
+.section4 .allCircle .real3 button {
+  margin-left: 20px;
+  background-color: white;
+  border-radius:200px;
+  border: 1px solid gray;
+}
+.section4 .allCircle .real3 button h2{
+  color:rgb(24, 18, 47);
+}
+.section4 .allCircle .real button:hover{
+  background-color:#7158DC;
+}
+.section4 .allCircle .real button:hover h2{
+  color:white;
+}
+
+.section4 .allCircle .real3 button:hover{
+  background-color:#7158DC;
+}
+.section4 .allCircle .real3 button:hover h2{
+  color:white;
+}
+.section4 .allCircle .real2 button:hover{
+  background-color:#7158DC;
+}
+.section4 .allCircle .real2 button:hover h2{
+  color:white;
+}
+
+.section5 {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section5Left {
+  width: 50%;
+}
+.section5Left button {
+  padding: 20px 30px;
+  color: #7158dc;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+}
+h1 {
+  font-family: "Heebo", sans-serif;
+  padding-bottom: 20px;
+}
+p {
+  color: gray;
+  font-family: "Heebo", sans-serif;
+}
+.section5Right {
+  width: 50%;
+  text-align: center;
+}
+.section5Right img {
+  border-radius: 30px;
+}
+
+.section6 {
+  padding: 30px 40px;
+}
+.section6 .allMonitor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.section6 .allMonitor .firstMonitor {
+  width: 100%;
+}
+.section6 .allMonitor .firstMonitor h3{
+  font-family: "Heebo", sans-serif;
+  color:black;
+}
+.section6 .allMonitor .firstMonitor button {
+  padding: 20px 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+}
+.section6 .allMonitor .firstMonitor button img{
+  border-radius:0px;
+}
+p {
+  color: gray;
+}
+
+.section7 {
+  padding: 0px 40px;
+  text-align: center;
+}
+.section7 h1 {
+  color: #7158dc;
+}
+.section7  .center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+.section7 .center .images {
+  text-align: center;
+}
+.section7 .center .images img {
+  text-align: center;
+  width: 125%;
+}
+
+.section7 .center .bigText {
+  color: black;
+  text-align: center !important;
+}
+.section7 button {
+  padding: 50px 25px;
+  border: none;
+  border-radius: 70px;
+  background-color: #18122f;
+  color: white;
+
+}
+
+@media (max-width: 1400px) {
+  .section1 .our {
+    font-size: 120px;
+  }
+  .section1 .app {
+    font-size: 120px;
+  }
+  .section2 {
+    padding: 30px 40px;
+  }
+  .section2 .allBoxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section2 .allBoxs .box1 button {
+    margin-left: 240px;
+  }
+  .section2 .allBoxs .box2 button {
+    margin-left: 240px;
+  }
+  .section2 .allBoxs .box3 {
+    margin-left: 20px;
+  }
+  .section2 .allBoxs .box3 button {
+    margin-left: 240px;
+  }
+  .section2 img {
+    margin: 100px 0px 0px 0px;
+  }
+  .section3 {
+    padding: 30px 40px;
+  }
+
+  .section3 h1 {
+    font-size: 115px;
+  }
+  .section3 .center {
+    display: flex;
+  }
+  .section3 .bigText {
+    font-size: 115px;
+  }
+
+  .section4 .allCircle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section4 .allCircle .real {
+    margin-left: 350px;
+  }
+  .section4 .allCircle .real button {
+    padding: 90px 70px;
+  }
+  .section4 .allCircle .real2 button {
+    padding: 102px 22px;
+    margin-left: 65px;
+  }
+  .section4 .allCircle .real3 button {
+    padding: 102px 49px;
+  }
+
+  .section5 {
+    display: flex;
+    padding: 30px 40px;
+  }
+  .section5 h1 {
+    font-size: 50px;
+  }
+  .section5Right img {
+    width: 85%;
+  }
+
+
+  .section6 .allMonitor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section7 h1 {
+    font-size: 90px;
+  }
+  .section7 .center{
+    margin-left: 290px;
+  }
+  .section7.center img {
+    margin-left: 270px;
+  }
+  .section7 .bigText {
+    font-size: 130px;
+  }
+}
+
+
+@media (max-width: 800px){
+.section1 .our {
+  font-size: 80px;
+}
+.section1 .app {
+  font-size: 80px;
+}
+  .section2 {
+    padding: 30px 20px;
+  }
+  .section2 .allBoxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+  }
+  .section2 .allBoxs .box1 button {
+    margin-left: 195px;
+  }
+  .section2 .allBoxs .box2 button {
+    margin-left: 195px;
+  }
+  .section2 .allBoxs .box3 {
+    margin-left: 0px;
+  }
+  .section2 .allBoxs .box3 button {
+    margin-left: 195px;
+  }
+  .section2 img {
+    margin: 30px 0px 0px 0px;
+  }
+  .section3 {
+    padding: 30px 40px;
+  }
+
+.section3 h1 {
+  font-size: 80px;
+}
+.section3 .bigText {
+  font-size: 80px;
+}
+
+.section4 .allCircle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 40px;
+}
+.section4 .allCircle .real {
+  margin-left: 0px;
+}
+.section4 .allCircle .real button {
+  padding: 65px -9px;
+}
+.section4 .allCircle .real2 button {
+  padding: 80px 80px;
+  margin-left: 10px;
+}
+.section4 .allCircle .real3 button {
+  padding: 90px 70px;
+}
+
+.section5{
+  display: flex;
+  padding: 30px 40px;
+}
+.section5 h1 {
+  font-size: 50px;
+}
+.section5Right img {
+  width: 85%;
+}
+
+.section6 .allMonitor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section7 h1 {
+  font-size: 80px;
+}
+.section7 .center{
+  margin-bottom: 50px;
+  margin-left: 130px;
+}
+.section7.center img {
+  margin-left: 150px;
+}
+.section7 .bigText {
+  font-size: 80px;
+}
+
+}
+
+@media (max-width: 500px){
+    .section1 .our {
+      font-size: 50px;
+    }
+    .section1 .app {
+      font-size: 50px;
+    }
+      .section2 {
+        padding: 30px 20px;
+      }
+      .section2 .allBoxs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:20px;
+      }
+      .section2 .allBoxs .box1 button {
+        margin-left: 40px;
+      }
+      .section2 .allBoxs .box2 button {
+        margin-left: 95px;
+      }
+      .section2 .allBoxs .box3 {
+        margin-left: 0px;
+      }
+      .section2 .allBoxs .box3 button {
+        margin-left: 95px;
+      }
+      .section2 img {
+        margin: 20px 0px 0px 0px;
+      }
+
+      .section3{
+        padding: 0px 26px;
+      }
+
+    .section3 h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    .section3 .bigText {
+      font-size: 50px;
+      text-align: center;
+    }
+
+   
+
+  .section4 .allCircle {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    padding: 30px 80px;
+  }
+  .section4 .allCircle .real {
+    margin-left: 0px;
+  }
+  .section4 .allCircle .real button {
+    padding: 100px 25px;
+    margin-left: 20px;
+  }
+  .section4 .allCircle .real2 button {
+    padding: 100px 25px;
+    margin-left: 20px;
+  }
+  .section4 .allCircle .real3 button {
+    padding: 100px 50px;
+  }
+
+  .section5{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.section5 h1 {
+  font-size: 19px;
+}
+.section5Right img {
+  width: 100%;
+}
+
+.section6 .allMonitor {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.section7 h1 {
+  font-size: 50px;
+}
+.section7 .center{
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.section7.center img {
+  margin-left: 80px;
+}
+.section7 .bigText {
+  font-size: 50px;
+}
+}
