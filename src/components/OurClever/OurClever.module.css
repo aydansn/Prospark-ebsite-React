@@ -1,0 +1,54 @@
+.section1 {
+  padding: 30px 40px;
+  text-align: center;
+}
+.section1 h1 {
+  padding: 0px;
+}
+.section1 button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: #7158dc;
+}
+.our {
+  color: black;
+  font-family: "Heebo", sans-serif;
+}
+.app {
+  color: #7158dc;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 70px;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+  .section1 .our {
+    font-size: 120px;
+  }
+  .section1 .app {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section1 .our {
+    font-size: 80px;
+  }
+  .section1 .app {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section1 .our {
+    font-size: 50px;
+  }
+  .section1 .app {
+    font-size: 50px;
+  }
+}

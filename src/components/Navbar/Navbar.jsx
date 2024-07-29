@@ -17,9 +17,9 @@ const Navbar = () => {
        <Link to="/pricing">Pricing</Link>
        <Link to="/service">Service</Link>
       </div>
-      <div class={style.navRight}>
-                <div class={style.basket}><i class="fa-solid fa-basket-shopping"></i></div>
-                <div class={style.getInTouch}><button>GET IN TOUCH</button></div>
+      <div className={style.navRight}>
+                <div className={style.basket}></div>
+                <div className={style.getInTouch}><button>GET IN TOUCH</button></div>
             </div>
     </div>
   )

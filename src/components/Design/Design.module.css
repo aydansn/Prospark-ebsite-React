@@ -1,0 +1,190 @@
+
+.section2 {
+    text-align: center;
+    padding: 30px 40px;
+  }
+  .section2 .allBoxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .section2 .allBoxs .box1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+  .section2 .allBoxs  .box1 button {
+    margin: 0px 0px 60px 210px;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+    background-color: rgb(250, 249, 254);
+  }
+  .section2 .allBoxs .box1 button i {
+    color: black;
+    font-size: 25px;
+  }
+  .section2 .allBoxs .box1  h3 {
+    color: #7158dc;
+  }
+  .section2 .allBoxs .box1  .difH3 {
+    color: black;
+  }
+  .section2 .allBoxs .box1  p {
+    color: gray;
+  }
+  .section2 .allBoxs .box1   button:hover {
+    background-color: #7158dc;
+   
+  }
+  .section2 .allBoxs .box1  button:hover i {
+    color: white;
+  }
+  .section2 .allBoxs  .box2 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+  
+  .box2 button {
+    margin: 0px 0px 60px 210px;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+    background-color: rgb(250, 249, 254);
+  }
+  .box2 button i {
+    color: black;
+    font-size: 25px;
+  }
+  h3 {
+    color: #7158dc;
+  }
+  .difH3 {
+    color: black;
+  }
+  p {
+    color: gray;
+  }
+  button:hover {
+    background-color: #7158dc;
+  }
+  button:hover i {
+    color: white;
+  }
+  .box3 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+  .box3 button {
+    margin: 0px 0px 60px 210px;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+    background-color: rgb(250, 249, 254);
+  }
+  .box3 button i {
+    color: black;
+    font-size: 25px;
+  }
+  h3 {
+    color: #7158dc;
+  }
+  .difH3 {
+    color: black;
+  }
+  p {
+    color: gray;
+  }
+  button:hover {
+    background-color: #7158dc;
+  }
+  button:hover i {
+    color: white;
+  }
+  .section2 img {
+    width: 30%;
+    padding: 30px 0px;
+  }
+  
+  @media (max-width: 1400px) {
+
+    .section2 {
+      padding: 30px 40px;
+    }
+    .section2 .allBoxs {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .section2 .allBoxs .box1 button {
+      margin-left: 240px;
+    }
+    .section2 .allBoxs .box2 button {
+      margin-left: 240px;
+    }
+    .section2 .allBoxs .box3 {
+      margin-left: 20px;
+    }
+    .section2 .allBoxs .box3 button {
+      margin-left: 240px;
+    }
+    .section2 img {
+      margin: 100px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 800px){
+    .section2 {
+      padding: 30px 20px;
+    }
+    .section2 .allBoxs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:20px;
+    }
+    .section2 .allBoxs .box1 button {
+      margin-left: 195px;
+    }
+    .section2 .allBoxs .box2 button {
+      margin-left: 195px;
+    }
+    .section2 .allBoxs .box3 {
+      margin-left: 0px;
+    }
+    .section2 .allBoxs .box3 button {
+      margin-left: 195px;
+    }
+    .section2 img {
+      margin: 30px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 500px){
+    .section2 {
+      padding: 30px 20px;
+    }
+    .section2 .allBoxs {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap:20px;
+    }
+    .section2 .allBoxs .box1 button {
+      margin-left: 40px;
+    }
+    .section2 .allBoxs .box2 button {
+      margin-left: 95px;
+    }
+    .section2 .allBoxs .box3 {
+      margin-left: 0px;
+    }
+    .section2 .allBoxs .box3 button {
+      margin-left: 95px;
+    }
+    .section2 img {
+      margin: 20px 0px 0px 0px;
+    }
+
+}

@@ -8,9 +8,9 @@ const Footer = () => {
       <img src={navbarimage} alt="navbar logo" />
       <h5>Newsletter</h5>
             <p>Sign up to receive latest news <br/> and exclusive content.</p>
-            <div class={style.yanYana}>
-                <div class={style.enter}><input type="text" placeholder="Enter your mail"/></div>
-                <div class={style.subscribe}><button>Subscribe</button></div>
+            <div className={style.yanYana}>
+                <div className={style.enter}><input type="text" placeholder="Enter your mail"/></div>
+                <div className={style.subscribe}><button>Subscribe</button></div>
             </div>
       </div>
     <div className={style.allBox}>

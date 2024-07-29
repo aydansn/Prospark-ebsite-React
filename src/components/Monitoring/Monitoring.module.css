@@ -1,0 +1,60 @@
+
+.section6 {
+    padding: 30px 40px;
+  }
+  .section6 .allMonitor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  .section6 .allMonitor .firstMonitor {
+    width: 100%;
+  }
+  .section6 .allMonitor .firstMonitor h3{
+    font-family: "Heebo", sans-serif;
+    color:black;
+  }
+  .section6 .allMonitor .firstMonitor button {
+    padding: 20px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+  }
+  .section6 .allMonitor .firstMonitor button img{
+    border-radius:0px;
+  }
+  p {
+    color: gray;
+  }
+
+
+  @media (max-width: 1400px) {
+
+
+    .section6 .allMonitor {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+ }
+
+ 
+@media (max-width: 800px){
+ 
+
+    .section6 .allMonitor {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 500px){
+
+
+
+    .section6 .allMonitor {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,122 @@
+
+.section4 .allCircle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section4 .allCircle .real button {
+    background-color: white;
+    border-radius:200px;
+    border: 1px solid gray;
+  }
+  .section4 .allCircle .real button h2{
+    color:rgb(24, 18, 47);
+  }
+  .section4 .allCircle .real2 button {
+  
+    background-color: white;
+    border-radius:200px;
+    border: 1px solid gray;
+  }
+  .section4 .allCircle .real2 button h2{
+    color:rgb(24, 18, 47);
+  }
+  .section4 .allCircle .real3 button {
+    margin-left: 20px;
+    background-color: white;
+    border-radius:200px;
+    border: 1px solid gray;
+  }
+  .section4 .allCircle .real3 button h2{
+    color:rgb(24, 18, 47);
+  }
+  .section4 .allCircle .real button:hover{
+    background-color:#7158DC;
+  }
+  .section4 .allCircle .real button:hover h2{
+    color:white;
+  }
+  
+  .section4 .allCircle .real3 button:hover{
+    background-color:#7158DC;
+  }
+  .section4 .allCircle .real3 button:hover h2{
+    color:white;
+  }
+  .section4 .allCircle .real2 button:hover{
+    background-color:#7158DC;
+  }
+  .section4 .allCircle .real2 button:hover h2{
+    color:white;
+  }
+
+  
+@media (max-width: 1400px) {
+
+
+    .section4 .allCircle {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .section4 .allCircle .real {
+      margin-left: 350px;
+    }
+    .section4 .allCircle .real button {
+      padding: 90px 70px;
+    }
+    .section4 .allCircle .real2 button {
+      padding: 102px 22px;
+      margin-left: 65px;
+    }
+    .section4 .allCircle .real3 button {
+      padding: 102px 49px;
+    }
+}
+
+@media (max-width: 800px){
+ 
+
+    .section4 .allCircle {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 30px 40px;
+    }
+    .section4 .allCircle .real {
+      margin-left: 0px;
+    }
+    .section4 .allCircle .real button {
+      padding: 65px -9px;
+    }
+    .section4 .allCircle .real2 button {
+      padding: 80px 80px;
+      margin-left: 10px;
+    }
+    .section4 .allCircle .real3 button {
+      padding: 90px 70px;
+    }
+
+}
+  
+
+@media (max-width: 500px){
+
+    .section4 .allCircle {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap:20px;
+      padding: 30px 80px;
+    }
+    .section4 .allCircle .real {
+      margin-left: 0px;
+    }
+    .section4 .allCircle .real button {
+      padding: 100px 25px;
+      margin-left: 20px;
+    }
+    .section4 .allCircle .real2 button {
+      padding: 100px 25px;
+      margin-left: 20px;
+    }
+    .section4 .allCircle .real3 button {
+      padding: 100px 50px;
+    }
+}

@@ -1,0 +1,41 @@
+.section3 h1 {
+  font-size: 115px;
+  font-family: "Heebo", sans-serif;
+}
+.center {
+  display: flex;
+}
+.bigText {
+  font-size: 115px;
+  color: #7158dc;
+  font-family: "Heebo", sans-serif;
+}
+
+@media (max-width: 1400px) {
+  .section3 {
+    padding: 30px 40px;
+  }
+
+  .section3 h1 {
+    font-size: 115px;
+  }
+  .section3 .center {
+    display: flex;
+  }
+  .section3 .bigText {
+    font-size: 115px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section3 {
+    padding: 30px 40px;
+  }
+
+  .section3 h1 {
+    font-size: 80px;
+  }
+  .section3 .bigText {
+    font-size: 80px;
+  }
+}
